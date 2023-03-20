@@ -3,12 +3,16 @@
     padding:0;
     box-sizing:border-box;
 }
-body{
-    background-color: aquamarine;
+body a{
+    text-decoration: none;
 }
 .abc{
     display:flex;
     justify-content:center;
     align-items:center;
     height: fit-content;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 5px;
 }
